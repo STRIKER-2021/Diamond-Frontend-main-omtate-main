@@ -1,0 +1,41 @@
+.about{
+    background-image: url("../images/home_background_2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height:100%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    padding: 25px;
+    margin-left: -20px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-bottom: -20px;
+  }
+  .image {
+    width: 50%; 
+    height: 340px;
+  }
+  
+  .text {
+    font-size: 30px;
+    height: 300px;
+    width: 50%; 
+    text-align: center;
+    padding: 20px;
+    background-color: #393f4d;        /*  Deep Matte Grey: #393f4d or Dark Slate: #1d1e22 */
+    font-variant:small-caps;
+  }
+  
+  
+
+  
