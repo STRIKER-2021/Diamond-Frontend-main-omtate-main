@@ -7,35 +7,52 @@
     height:100%;
 }
 .about{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
 .container {
-    display: flex;
-    height: 400px;
-    align-items: center;
-    padding: 25px;
-    margin-left: -20px;
-    margin-top: 30px;
-    margin-right: 0px;
-    margin-bottom: -20px;
-  }
-  .image {
-    width: 50%; 
-    height: 340px;
-  }
-  
-  .text {
-    font-size: 30px;
-    height: 300px;
-    width: 50%; 
-    text-align: center;
-    padding: 20px;
-    background-color: #393f4d;        /*  Deep Matte Grey: #393f4d or Dark Slate: #1d1e22 */
-    font-variant:small-caps;
-  }
-  
-  
+height: 50vh;
+display: flex;
+flex-direction: row;
+margin-top: 110px;
+margin-right: 100px;
+margin-left: 10px;
+}
+.container-2 {
+height: 50vh;
+display: flex;
+flex-direction: row;
+margin-top: 120px;
+margin-right: 20px;
+margin-left: 100px;
+}
+
+.image {
+flex: 1;
+background: url("../images/about_us_diamond.jpg") center center no-repeat;
+background-size: cover;
+}
+
+.text-box {
+flex: 1;
+background-color:#393f4d;         /*  Deep Matte Grey: #393f4d or Dark Slate: #1d1e22 */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+@media (max-width: 768px) {
+.container {
+  height: 25vh; 
+}
+}
+@media (max-width: 768px) {
+.container-2 {
+  height: 25vh; 
+}
+}
 
   

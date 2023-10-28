@@ -5,44 +5,28 @@ import about_us_diamond from '../images/about_us_diamond.jpg'
 export const About = () => {
   return (
     <div className='about'>
-        <div className="container">
-      <img
-        src={about_us_diamond}
-        alt="Your Image"
-        className="image"
-      />
-      <div className="text">
-        Your text goes here.
-      </div>
-      
-    </div>
     <div className="container">
-      
-      <div className="text">
-        Your text goes here.
-      </div>
-      <img
-        src={about_us_diamond}
-        alt="Your Image"
-        className="image"
-      />
-      
+    <div className="image"></div>
+    <div className="text-box">
+      <p>Your text </p>
     </div>
-    <div className="container">
-    <img
-        src={about_us_diamond}
-        alt="Your Image"
-        className="image"
-      />
-      <div className="text">
-        Your text goes here.
-      </div>
-      
-      
-    </div>
+  </div>
+
+  <div className="container-2">
     
-      
-      
+    <div className="text-box">
+      <p>Your text </p>
     </div>
-  )
+    <div className="image"></div>
+  </div>
+  <div className="container">
+    <div className="image"></div>
+    <div className="text-box">
+      <p>Your text </p>
+    </div>
+  </div>
+    
+    
+  </div>
+ )
 }
